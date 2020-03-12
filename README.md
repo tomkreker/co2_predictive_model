@@ -24,9 +24,9 @@ The final likelihood function is made of four components:
 
 Full specification of the priors, likelihood, and the full joint probability over all parameters can be found in the report.
 
-## Code Design
+## Code Structure
 The code is divided to several sections: 
 1. Loading the data.
-2. Building a first model and obtaining results.
-3. Refining the first model with an inner-cosine function.
+2. Building a first model and obtaining results via Stan.
+3. Refining the first model with an inner-cosine function via Stan.
 4. Obtaining predictions for the next 40 years. 
